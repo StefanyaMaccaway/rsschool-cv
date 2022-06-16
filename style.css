@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+.shadowbox {
+    width: auto;
+    border: 2px solid rgb(43, 85, 154);
+    box-shadow: 8px 8px 5px rgb(39, 33, 117);
+    padding: 8px 12px;
+    background-image: gradient(180deg, rgb(237, 239, 241), rgb(201, 203, 210) 40%, rgb(127, 154, 150));
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+body {
+    font-family: 'Tiro Gurmukhi', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #121115;
+}
+
+.avatar {
+    width: 300px;
+    margin-top: 16px;
+}
+
+.contacts-item {
+    font-style: italic;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo {
+    width: 180px;
+    height: 67px;
+}
+
+.logo-link {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+}
