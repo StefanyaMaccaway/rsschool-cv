@@ -30,10 +30,24 @@ body {
 .contacts-item {
     font-style: italic;
 }
- .rs {
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo {
     width: 180px;
-    margin-left: 1300px;
- }
- .section-title main-title {
-    margin-top: 100cm;
- }
+    height: 67px;
+}
+
+.logo-link {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+}
